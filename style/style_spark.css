@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+.barnav{
+    background-color: rgb(40, 43, 58);
+    margin: -9px;
+    display: flex;
+    font-family: "Merriweather", serif;
+}
+.barnav img{
+    width: 100px;
+    margin-left: 1040px;
+    
+
+}
+.barnav a{
+    margin: 30px;
+    padding: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.venido{
+    text-align: center;
+    font-family: "Merriweather", serif;
+
+}
+
+.tarjeta{
+    display: inline;
+}
+
+.card{
+    border: 2px;
+    border-radius: 11px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    justify-items: baseline;
+    overflow: hidden;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    
+    
+}
+
+.card img{
+    width: 100%;
+    width: 400px;
+    padding: 10px;
+}
+
+
+.footer{
+    background-color: cornflowerblue;
+    font-family: "Merriweather", serif;
+    
+
+}
