@@ -7,7 +7,8 @@
 }
 .barnav img{
     width: 100px;
-    margin-left: 1040px;
+    margin-left: 1050px;
+    justify-content: flex-end;
     
 
 }
@@ -26,34 +27,61 @@
 
 }
 
-.tarjeta{
+.card {
+  background-color: rgb(40, 43, 58);
+  color: white;
+  margin: 30px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 20px;
+  
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  font-family: "Merriweather", serif;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 50px;
+  width: 300px;
+
+}
+
+.lin {
+    display: flex;
     display: inline;
 }
 
-.card{
-    border: 2px;
-    border-radius: 11px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: black;
-    justify-items: baseline;
-    overflow: hidden;
-    font-family: "Merriweather", serif;
+.card h1 {
+  text-align: center;
+  font-size: 25px;
+  color: wheat;
+}
+
+.card h2{
+    color: gold;
     text-align: center;
-    
+}
+
+.tarjetas {
+  display: inline;
+ 
+}
+.container{
+    display: inline
     
 }
 
-.card img{
-    width: 100%;
-    width: 400px;
-    padding: 10px;
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(40, 43, 58);
+  font-family: "Merriweather", serif;
+  margin: -10px;
+  color: white;
+  font-size: 12px;
+}
+.card:hover {
+  transform: scale(1.03);
+  background-color: rgb(40, 43, 58);
 }
 
-
-.footer{
-    background-color: cornflowerblue;
-    font-family: "Merriweather", serif;
-    
-
-}
